@@ -51,7 +51,7 @@
 * **本项目备份:** [glasser360MNI.nii.gz](https://github.com/Jingfeng-Tang/HCP360-Glasser-atlas-mapping-Yeo-7-subnetwork/blob/main/glasser360MNI.nii.gz)
 
 ### 3. 将 HCP360 重采样至 Yeo 空间
-对 HCP360 图谱进行重采样，使其分辨率、仿射矩阵 (Affine) 和维度与 Yeo 模板完全匹配，以确保体素级对齐。
+对 HCP360 图谱进行重采样，使其分辨率、仿射矩阵和维度与 Yeo 模板完全匹配，以确保体素级对齐。
 * **运行:**
     ```bash
     python resample_hcp2yeo.py
